@@ -1,0 +1,49 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: purple;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: solid 1px gray;
+}
+
+.left-section {
+  display: flex;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.left-section div {
+  color: chartreuse;
+}
+
+.left-section span {
+  color: darkorange;
+}
+
+
+.middle-section ul {
+  display: flex;
+  gap: 16px;
+}
+
+.middle-section ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.middle-section ul li:hover {
+  text-decoration: underline;
+}
