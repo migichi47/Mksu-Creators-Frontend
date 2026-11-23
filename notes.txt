@@ -1,1 +1,3 @@
 - Media queries in css
+- Positions => relative, fixed, absolute, sticky, etc.
+- classlist toggle
